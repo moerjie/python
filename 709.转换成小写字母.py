@@ -12,8 +12,8 @@ FilePath: \python\709.转换成小写字母.py
 
 # @lc code=start
 
-
 class Solution:
     def toLowerCase(self, s: str) -> str:
         return s.lower()
+
 # @lc code=end
