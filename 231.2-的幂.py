@@ -4,6 +4,8 @@ Data: Today
 LastEditTime: 2023-08-24 10:23:25
 FilePath: \python\231.2-的幂.py
 '''
+
+
 #
 # @lc app=leetcode.cn id=231 lang=python3
 #
@@ -19,5 +21,8 @@ class Solution:
             return False
         elif n == 1:
             return True
-        return (n & (n-1)) == 0
+        return (n & (n - 1)) == 0
+
+    n = 4
+    isPowerOfTwo(n)
 # @lc code=end
