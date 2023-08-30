@@ -16,7 +16,7 @@ names = ['group_a', 'group_b', 'group_c']
 values = [1, 10, 100]
 x_val = list(range(1, 1001))
 y_val = [x**2 for x in x_val]
-plt.scatter(x_val, y_val, c='red',edgecolors='none')
+plt.scatter(x_val, y_val,  c=y_val, cmap=plt.cm.Blues,edgecolors='none', s=40)
 plt.axis([0, 1100, 0, 1100000])
 plt.tick_params(tickdir='in')
 '''
