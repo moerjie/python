@@ -14,5 +14,4 @@ plt.title('1~5')
 
 plt.subplot(122)
 plt.scatter(x_val_pro, y_val_pro, c=y_val_pro, cmap=plt.cm.Blues)
-
 plt.show()
