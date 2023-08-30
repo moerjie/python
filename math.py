@@ -1,7 +1,7 @@
 '''
 Author: Moerjie
 Data: Do not edit
-LastEditTime: 2023-08-26 21:02:56
+LastEditTime: 2023-08-30 17:05:41
 FilePath: \python\math.py
 '''
 import matplotlib.pyplot as plt
@@ -18,6 +18,7 @@ x_val = list(range(1, 1001))
 y_val = [x**2 for x in x_val]
 plt.scatter(x_val, y_val, edgecolors='none')
 plt.axis([0, 1100, 0, 1100000])
+
 '''
 plt.plot(squ, 'ro', lw=5)
 plt.axes([0, 6, 0, 25])
