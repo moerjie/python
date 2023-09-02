@@ -1,3 +1,9 @@
+'''
+Author: Moerjie
+Data: Do not edit
+LastEditTime: 2023-08-31 22:26:09
+FilePath: \data_show\cube.py
+'''
 import matplotlib.pyplot as plt
 
 x_val = [1, 2, 3, 4, 5]
